@@ -184,7 +184,7 @@ def update_graph_live(y):
     #data_sent = pd.read_csv('Data_sent.csv', error_bad_lines=False)
     database_url = os.getenv(
     'DATABASE_URL',
-    default='postgres://lymbbbymkqczvq:0e9527f59035f7e7b37e294ff7208a07c00916d11fb074ed67e289bf46da6e52@ec2-3-87-180-131.compute-1.amazonaws.com:5432/dfevum1gplslnv',  # E.g., for local dev
+    default='postgres://ouhieniktislqg:670cd50a97c032fd1f58880c7b4ad96893c94e7b40706e850a03630a5a7ba8ca@ec2-3-221-49-44.compute-1.amazonaws.com:5432/d7l11l3desflh0',  # E.g., for local dev
     )
 
     conn = psycopg2.connect(database_url)
