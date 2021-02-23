@@ -1,5 +1,6 @@
 anyio==2.1.0
 appnope==0.1.2
+APScheduler==3.7.0
 argon2-cffi==20.1.0
 async-generator==1.10
 attrs==20.3.0
@@ -106,6 +107,7 @@ traitlets==5.0.5
 tweepy==3.10.0
 typer==0.3.2
 typing-extensions==3.7.4.3
+tzlocal==2.1
 urllib3==1.26.3
 wasabi==0.8.2
 wcwidth==0.2.5
