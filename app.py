@@ -194,7 +194,7 @@ def update_graph_live(y):
             """, con = conn)
     
     #cursor = connection.cursor()
-    data_sent.columns = ['User' if x == 'Us' else x for x in data_sent.columns]
+    data_sent.columns = ['User' if x == 'us' else x.capitalize() for x in data_sent.columns]
     data_sent['Date'] = pd.to_datetime(data_sent.Date)
     print(data_sent['Date'].max(),data_sent['Date'].min())
     data_sent['Fecha'] = data_sent.Date.apply(lambda x: x.strftime(format = "%Y-%m-%d %H"))
