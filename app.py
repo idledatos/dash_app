@@ -30,6 +30,12 @@ colors = {
     'background': '#add8e6',
     'text': '#ff681f'
 }
+    
+try:
+    print('vader_lexicon not installed: installing now')
+    nltk.download('punkt')
+except:
+    print('punkt installed')
 
 test_png = 'idle-stocklogo.png' # replace with your own image
 test_base64 = base64.b64encode(open(test_png, 'rb').read()).decode('ascii')
