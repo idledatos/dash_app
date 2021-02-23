@@ -31,7 +31,7 @@ colors = {
     'text': '#ff681f'
 }
 
-test_png = 'idle_logo.png' # replace with your own image
+test_png = 'idle_stocklogo.png' # replace with your own image
 test_base64 = base64.b64encode(open(test_png, 'rb').read()).decode('ascii')
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
