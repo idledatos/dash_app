@@ -31,11 +31,6 @@ colors = {
     'text': '#ff681f'
 }
     
-try:
-     nltk.download('punkt')
-     from nltk.tokenize import word_tokenize,sent_tokenize
-except:
-    print('punkt installed')
 
 test_png = 'idle-stocklogo.png' # replace with your own image
 test_base64 = base64.b64encode(open(test_png, 'rb').read()).decode('ascii')
