@@ -32,8 +32,7 @@ colors = {
 }
     
 try:
-    print('vader_lexicon not installed: installing now')
-    nltk.download('punkt')
+    nltk.download()
 except:
     print('punkt installed')
 
